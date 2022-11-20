@@ -38,6 +38,9 @@ dependencies:
   cupertino_icons: ^1.0.2
   flutter_native_splash: ^2.2.14
   flutter_launcher_icons: ^0.10.0
+  gradient_widgets: ^0.6.0
+  image_picker: ^0.8.6
+  camera: ^0.10.0+4
 
 dev_dependencies:
   flutter_test:
