@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:tm808/components/gradient_rounded_button.dart';
-import 'package:tm808/pages/CorrigirTeste.dart';
+import '../components/gradient_rounded_button.dart';
+import '../pages/CorrigirTeste.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});
@@ -10,16 +10,13 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-  
-  
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
           actions: const [
             CircleAvatar(
-              backgroundImage: AssetImage('logo_no_bg.png'),
+              backgroundImage: AssetImage('assets/logo_no_bg.png'),
               backgroundColor: Color(0xFFefefef),
             ),
             Padding(padding: EdgeInsets.only(right: 45, top: 45))
@@ -45,9 +42,9 @@ class _HomeState extends State<Home> {
                 )
                 }),
                 colors: const [
-                  Color.fromARGB(255, 76, 4, 209),
-                  Color.fromARGB(255, 123, 155, 168),
-                  Color.fromARGB(255, 56, 13, 156),
+                  Color.fromARGB(255, 44, 230, 236),
+                  Color.fromARGB(255, 143, 227, 241),
+                  Color.fromARGB(255, 152, 238, 152),
                 ], 
                 child:  const Text("Corrigir teste   "),
                 ),
@@ -60,9 +57,9 @@ class _HomeState extends State<Home> {
                   )
                 }),
                 colors: const [
-                  Color.fromARGB(255, 76, 4, 209),
-                  Color.fromARGB(255, 123, 155, 168),
-                  Color.fromARGB(255, 56, 13, 156),
+                  Color.fromARGB(255, 44, 230, 236),
+                  Color.fromARGB(255, 143, 227, 241),
+                  Color.fromARGB(255, 152, 238, 152),
                 ], 
                 child:  const Text("Importar teste"),
                 ),
@@ -74,9 +71,9 @@ class _HomeState extends State<Home> {
                   )
                 }),
                 colors: const [
-                  Color.fromARGB(255, 76, 4, 209),
-                  Color.fromARGB(255, 123, 155, 168),
-                  Color.fromARGB(255, 56, 13, 156),
+                  Color.fromARGB(255, 44, 230, 236),
+                  Color.fromARGB(255, 143, 227, 241),
+                  Color.fromARGB(255, 152, 238, 152),
                 ], 
                 child:  const Text("Imprimir teste"),
                 )
